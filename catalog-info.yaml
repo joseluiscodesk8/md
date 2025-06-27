@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: opencost
+  annotations:
+    backstage.io/kubernetes-namespace: monitoring
+    backstage.io/techdocs-ref: dir:.
+  description: OpenCost is a tool for monitoring, allocating, and optimizing resource costs on Kubernetes clusters in real time.
+  tags:
+    - monitoring
+    - allocating
+    - optimizing
+    - cost-model
+  links:
+    - url: https://opencost.pukara.dev/
+      title: opencost
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  dependsOn:
+    - resource:default/argocd
+    - resource:default/kubernetes-microk8s
+    - resource:default/cloudflare
+  type: service
+  owner: platform
+  system: observability-system
+  lifecycle: production
