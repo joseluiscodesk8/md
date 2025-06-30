@@ -8,4 +8,5 @@ metadata:
 spec:
   type: other
   lifecycle: production
-  owner: navigator-system
+  system: navigator-system
+  owner: user:default/troc
