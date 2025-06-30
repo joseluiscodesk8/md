@@ -11,4 +11,4 @@ spec:
   type: other
   lifecycle: production
   system: navigator-system
-  owner: user:default/troc
+  owner: User
