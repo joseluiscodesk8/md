@@ -1,4 +1,3 @@
-cat README.md
 # navigator-platform
 
 This repository contains the Terraform configurations and modules necessary to manage our organization's infrastructure on AWS, GCP, etc.

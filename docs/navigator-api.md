@@ -1,4 +1,3 @@
-cat README.md
 #  Navigator-api (Data Api for Querysource)
 
 Navigator Api is a Rest Api based on the navigator framework to build Asynchronous APIs.
