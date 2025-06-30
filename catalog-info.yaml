@@ -4,7 +4,7 @@ metadata:
   name: sample-troc
   annotations:
     github.com/project-slug: Trocdigital/sample-troc
-    backstage.io/techdocs-ref: dir:docs
+    backstage.io/techdocs-ref: dir:docs/docs
 spec:
   type: other
   owner: navigator
