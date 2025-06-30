@@ -1,0 +1,8 @@
+site_name: 'Platform Hub'
+
+nav:
+  - Home: index.md
+  - Infra Repo: navigator-plaform-repo.md
+  - Navigator-api: navigator-api.md 
+plugins:  
+  - techdocs-core
