@@ -4,8 +4,8 @@ metadata:
   name: sample-troc
   annotations:
     github.com/project-slug: Trocdigital/sample-troc
-    backstage.io/techdocs-ref: dir:aws/docs/skate
 spec:
-  type: other
+  type: file
+  target : ../aws/docs/skate
   owner: navigator
   lifecycle: production
