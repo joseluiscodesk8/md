@@ -3,6 +3,7 @@ site_name: 'Platform Hub'
 nav:
   - Home: index.md
   - Navigator-plarform: navigator-platform.md
-  - Navigator-api: navigator-api.md 
+  - Navigator-api: navigator-api.md
+  - Flowcore: flowcore.md 
 plugins:  
   - techdocs-core
